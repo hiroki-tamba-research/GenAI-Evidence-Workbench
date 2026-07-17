@@ -1,0 +1,33 @@
+# Never commit real exports, archives, evidence, or secrets.
+*.zip
+*.7z
+*.tar
+*.gz
+*.json
+*.jsonl
+*.html
+*.sqlite
+*.db
+*.pem
+*.key
+.env
+.env.*
+
+# Local evidence and work areas
+evidence/
+private/
+work/
+tmp/
+outputs/
+
+# Explicitly sanitized public examples may be added deliberately.
+!samples-sanitized/**/*.json
+!samples-sanitized/**/*.jsonl
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+*.pyc
