@@ -29,6 +29,10 @@ The export contained 448 conversations. One conversation was excluded under the 
 
 These figures are **candidate counts**. They do not establish training use, data leakage, model memorization, wrongdoing, or causal provenance.
 
+### Known source limitation
+
+The reference archive was truncated. Its ZIP central directory was unavailable, the final local entry was partial, and 2,142,448 compressed bytes were missing. The analysis therefore reconciles the recoverable complete entries and records the partial entry explicitly; it does not claim complete recovery of the original archive.
+
 ## Evidence model
 
 The workbench defines **no unexplained data loss** as a verifiable reconciliation, not an unconditional claim. A completed engagement can include:
@@ -41,6 +45,17 @@ The workbench defines **no unexplained data loss** as a verifiable reconciliatio
 6. Deterministic rerun manifests and output hashes
 
 Time zones, character encoding, Unicode normalization, duplicates, missing fields, branched conversations, tool/system messages, and attachment references are treated as explicit audit dimensions.
+
+## What this workbench cannot establish
+
+- Textual similarity alone cannot prove model training, memorization, data leakage, authorship, or causal lineage.
+- A metadata field such as `real_author_id` cannot by itself authenticate identity, establish ownership, or prove cross-account exposure. That requires an independently verified account or workspace baseline.
+- A safe-stop exclusion deliberately prevents conclusions about the excluded content.
+- The workbench cannot recover bytes that are absent from a truncated or corrupted source archive.
+- It cannot make an unconditional guarantee of zero data loss. It can only report the reconciliation coverage defined by the available inputs, manifests, counts, exclusions, failures, and rerun results.
+- Candidate classifications are screening outputs, not findings of wrongdoing or evidence of intent.
+- The public repository is not an operational scanner and does not expose production detection logic or thresholds.
+- The methodology does not replace legal, privacy, incident-response, or subject-matter judgment.
 
 ## Operating boundaries
 
