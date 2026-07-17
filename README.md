@@ -81,6 +81,20 @@ This repository is intentionally a non-operational public overview.
 
 Typical deliverables include an input manifest, data dictionary, counting-rule specification, exclusion ledger, deterministic run manifest, sanitized findings register, and an executive audit report. Engagements can cover export integrity, internal LLM governance, evaluation reproducibility, insider-risk review, and defensible evidence preparation.
 
+## Seeking pilot partners
+
+We are seeking a small number of design partners to validate the methodology against real-world LLM export formats and controlled test datasets.
+
+Potential partners include AI vendors, enterprise GenAI teams, model evaluation providers, and AI security or governance teams.
+
+- Synthetic, sanitized, or explicitly authorized datasets only
+- Analysis can be performed inside the partner's controlled environment
+- No source data is sent to external AI services
+- Raw customer, employee, or third-party data must not be submitted through GitHub
+- Public disclosure is optional and requires prior written agreement
+
+For a confidential pilot or methodology evaluation, contact [Hiroki Tamba](https://github.com/hiroki-tamba-research).
+
 ## Research provenance
 
 Maintained by [Hiroki Tamba](https://github.com/hiroki-tamba-research), an independent researcher working on AI evaluation infrastructure, narrative intelligence, and LLM grader reliability.
