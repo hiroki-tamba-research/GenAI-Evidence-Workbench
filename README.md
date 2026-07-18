@@ -33,6 +33,16 @@ These figures are **candidate counts**. They do not establish training use, data
 
 The reference archive was truncated. Its ZIP central directory was unavailable, the final local entry was partial, and 2,142,448 compressed bytes were missing. The analysis therefore reconciles the recoverable complete entries and records the partial entry explicitly; it does not claim complete recovery of the original archive.
 
+## Validated export profiles
+
+| Vendor | Export profile | Validation status | Scope |
+|---|---|---|---|
+| OpenAI | ChatGPT account export | Validated reference case | Deterministic offline reconciliation of the recoverable complete entries, with the truncated source boundary recorded explicitly |
+| Anthropic | User-data export | Validated | One locally obtained export; prior conversation and message counts reconciled with zero delta, and two clean runs produced 13 byte-identical audit artifacts |
+
+The Anthropic validation left the source archive unchanged and emitted no source text, local paths, source archive names, or email-formatted identifiers into the audit artifacts. No dataset specifically identifiable as Claude Code was found in the tested export. Code- and tool-related blocks were present within Chat containers, but they do not establish Claude Code origin. These observations are limited to the tested export and do not establish that Claude Code data is absent elsewhere.
+
+All validation statements are export-scoped. They do not establish the completeness of a vendor export, model training provenance, leakage, memorization, wrongdoing, or causation.
 ## Evidence model
 
 The workbench defines **no unexplained data loss** as a verifiable reconciliation, not an unconditional claim. A completed engagement can include:
