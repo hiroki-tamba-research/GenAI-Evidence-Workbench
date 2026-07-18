@@ -43,6 +43,7 @@ The reference archive was truncated. Its ZIP central directory was unavailable, 
 The Anthropic validation left the source archive unchanged and emitted no source text, local paths, source archive names, or email-formatted identifiers into the audit artifacts. No dataset specifically identifiable as Claude Code was found in the tested export. Code- and tool-related blocks were present within Chat containers, but they do not establish Claude Code origin. These observations are limited to the tested export and do not establish that Claude Code data is absent elsewhere.
 
 All validation statements are export-scoped. They do not establish the completeness of a vendor export, model training provenance, leakage, memorization, wrongdoing, or causation.
+
 ## Evidence model
 
 The workbench defines **no unexplained data loss** as a verifiable reconciliation, not an unconditional claim. A completed engagement can include:
