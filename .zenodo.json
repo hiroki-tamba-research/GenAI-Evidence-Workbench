@@ -1,0 +1,32 @@
+{
+  "creators": [
+    {
+      "name": "Tamba, Hiroki",
+      "orcid": "0009-0004-7635-0741",
+      "affiliation": "Tamba Research Academy"
+    }
+  ],
+  "title": "GenAI Evidence Workbench: A Local-First Methodology for Reproducible LLM Export Forensics",
+  "description": "Public capability and evidence-boundary release for a local-first methodology that audits large exported LLM interaction datasets. The release documents evidence handling, reproducibility requirements, safe-stop governance, a sanitized reference case, known source limitations, and explicit non-claims. Raw exports, conversation text, attachments, proprietary detection logic, thresholds, and production adapters are not included.",
+  "version": "0.1.0",
+  "access_right": "open",
+  "keywords": [
+    "LLM forensics",
+    "AI governance",
+    "evidence engineering",
+    "reproducibility",
+    "data provenance",
+    "LLM evaluation",
+    "safe-stop"
+  ],
+  "license": "CC-BY-ND-4.0",
+  "upload_type": "software",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.20674090",
+      "relation": "references",
+      "resource_type": "publication-technicalnote"
+    }
+  ]
+}

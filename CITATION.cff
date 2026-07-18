@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use or discuss this public methodology, please cite this release."
+title: "GenAI Evidence Workbench: A Local-First Methodology for Reproducible LLM Export Forensics"
+type: software
+authors:
+  - family-names: Tamba
+    given-names: Hiroki
+    orcid: "https://orcid.org/0009-0004-7635-0741"
+    affiliation: "Tamba Research Academy"
+version: 0.1.0
+date-released: 2026-07-18
+license: CC-BY-ND-4.0
+repository-code: "https://github.com/hiroki-tamba-research/GenAI-Evidence-Workbench"
+url: "https://github.com/hiroki-tamba-research/GenAI-Evidence-Workbench"
+abstract: >-
+  Public capability and evidence-boundary release for a local-first methodology
+  that audits large exported LLM interaction datasets. Raw exports, sensitive
+  content, proprietary detection logic, thresholds, and production adapters are
+  intentionally excluded.
+keywords:
+  - LLM forensics
+  - AI governance
+  - evidence engineering
+  - reproducibility
+  - data provenance
+  - safe-stop

@@ -77,6 +77,20 @@ This repository is intentionally a non-operational public overview.
 | Safe-stop policy | Customer-specific findings |
 | Reproducibility requirements | Investigation workpapers |
 
+## Versioned public record
+
+The `v0.1.0` release package contains the public evidence-boundary note in
+[Markdown](docs/TECHNICAL_NOTE.md) and [PDF](docs/GenAI_Evidence_Workbench_v0.1.0.pdf),
+machine-readable citation metadata in [`CITATION.cff`](CITATION.cff), Zenodo
+deposit metadata in [`.zenodo.json`](.zenodo.json), and a SHA-256 manifest for
+the deposited files. The public package fixes the disclosed scope, limitations,
+and non-claims; it does not make the private reference case independently
+rerunnable.
+
+A DOI will be assigned by Zenodo after the corresponding GitHub Release is
+published. Until then, cite the repository and version shown in
+[`CITATION.cff`](CITATION.cff).
+
 ## Consulting engagements
 
 Typical deliverables include an input manifest, data dictionary, counting-rule specification, exclusion ledger, deterministic run manifest, sanitized findings register, and an executive audit report. Engagements can cover export integrity, internal LLM governance, evaluation reproducibility, insider-risk review, and defensible evidence preparation.

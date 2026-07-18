@@ -21,6 +21,7 @@ tmp/
 outputs/
 
 # Explicitly sanitized public examples may be added deliberately.
+!.zenodo.json
 !samples-sanitized/**/*.json
 !samples-sanitized/**/*.jsonl
 
