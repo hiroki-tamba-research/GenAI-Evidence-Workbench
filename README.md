@@ -3,6 +3,22 @@
 **Local-first evidence engineering for exported LLM interaction data.**
 
 GenAI Evidence Workbench is a consulting-oriented methodology for inspecting large ChatGPT and LLM data exports without sending source material to an API or external AI service. It focuses on reproducibility, evidence boundaries, safe handling, and defensible reporting.
+## Cross-vendor scope and impact
+
+GenAI Evidence Workbench is designed as a vendor-agnostic evidence layer for exported AI records.
+
+It has been used across OpenAI, Anthropic, and X exports, including a 15.6 GB X archive processed on a commodity laptop. Its offline, hash-first workflow preserves the original records while enabling reproducible reconstruction and independent review.
+
+Potential applications include:
+
+- legal and forensic review
+- research reproducibility
+- compliance auditing
+- incident response
+- journalism and archival verification
+- knowledge assessment
+
+The system does not require vendor-side access or trust in a single provider.
 
 > **Status:** Public capability brief. Raw exports, customer data, proprietary detection logic, thresholds, and production adapters are intentionally not included.
 
